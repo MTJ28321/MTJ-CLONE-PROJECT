@@ -10,7 +10,7 @@ body {
 }
 
 .main-header {
-   width: 100;
+   width: 100%;
    position: fixed;
    background: white;
    display: flex;
@@ -146,12 +146,20 @@ body {
 
 /* for certificate segment */
 
+/*.certificate {
+   width: 100%;
+   background: white;
+   height: 1400px;
+   text-align: center;
+   margin-bottom: 50px;
+}*/
+
 .certificate {
    width: 100%;
    background: white;
-   height: 2000px;
    text-align: center;
-   overflow: scroll;
+   overflow: hidden; /* optional */
+   padding-bottom: 40px; /* ✅ adds spacing below */
 }
 
 .certificate-image {
@@ -203,10 +211,17 @@ body {
 
 /* for about */
 
+/*.about-container {
+   width: 100%;
+   background: white;
+   height: 240px;
+}*/
+
 .about-container {
    width: 100%;
    background: white;
-   height: 240px; 
+   height: 240px;
+   margin-top: 30px; /* ✅ space between sections */
 }
 
 .about-container-box {
