@@ -98,7 +98,7 @@ body {
 
 /* for section one */
 .section-body {
-   width: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -149,7 +149,7 @@ body {
 .certificate {
    width: 100%;
    background: white;
-   height: 1400px;
+   height: 2000px;
    text-align: center;
    overflow: scroll;
 }
