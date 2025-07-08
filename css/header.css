@@ -234,6 +234,120 @@ body {
 .about-container:nth-child(4) {
    text-decoration: line-through;
 }
+
+
+/* for unlock */
+
+.unlock {
+   width: 100%;
+   min-height: 300px;
+   background: white;
+   margin-top: -1;
+}
+
+.unlock-section {
+   width: 100%;
+   background:#FFF1D5;
+   margin: 0 auto;
+}
+
+.unlock-section h4 {
+   padding-left: 90px;
+   font-size: 30px;
+   padding-top: 70px;
+}
+
+.unlock-section h5 {
+   padding-left: 90px;
+   font-size: 30px;
+}
+
+.unlock-section p {
+   padding-left: 90px;
+   padding-top: 50px;
+   font-size: 20px;
+}
+
+.unlock-section button {
+   display: block;
+   width: 250px;
+   background: green;
+   margin-left: 90px;
+   text-align: center;
+   margin: auto;
+   margin-top: 50px;
+   padding: 20px;
+   color: white;
+   font-size: 20px;
+   border-radius: 150px;
+   border: none;
+   line-height: 25px;
+   cursor: pointer;
+}
+
+.unlock-section-part {
+   position: relative;
+   width: 80%;
+   margin: 0 auto;
+   border-bottom: 1px solid lightgrey;
+}
+
+.unlock-section-part .fa-solid {
+   position: absolute;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   left: 0;
+   bottom: 30px;
+   margin-left: 20px;
+   background: green;
+   color: white;
+   border-radius: 0px;
+   font-size: 30px;
+   border-radius: 200px;
+   padding: 8px;
+}
+
+.unlock-section-part p {
+   font-size: 20px;
+   line-height: 100px;
+   font-weight: bold;
+}
+
+.footer {
+   position: relative;
+   width: 100%;
+   background: white;
+   min-height: 200px;
+}
+
+.footer .fa-brands {
+   position: absolute;
+   top: 20px;
+   left: 500px;
+   font-size: 40px;
+   margin:  auto;
+   cursor: pointer;
+}
+
+.footer-content {
+   display: flex;
+   justify-content: space-around;
+   border-top: 1px solid green;
+}
+
+.footer-content .content p{
+   padding-top: 130px;
+   
+}
+
+
+
+
+
+
+
+
    
 
 /* média query */
@@ -353,7 +467,7 @@ body {
    
    
    .certificate {
-      min-height: 3800px;
+      min-height: 3750px;
    }
 
    .certificate-image {
@@ -431,5 +545,12 @@ body {
       font-size: 25px;
       line-height: 20px;
    }
+   
+   /* for unlock */
+   
+   .unlock {
+      margin-top: -1px;
+   }
+
  
 }
