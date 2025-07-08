@@ -10,13 +10,12 @@ body {
 }
 
 .main-header {
-   width: 100%;
    position: fixed;
+   width: 100%;
    background: white;
    display: flex;
    justify-content: space-around;
    align-items: center;
-   width: 100%;
    height: 30px;
    z-index: 100;
 }
@@ -33,8 +32,9 @@ body {
    cursor: pointer;
 }
 
+/* for main */
+
 .main-main {
-   width: 100;
    background: white;
    text-align: center;
 }
@@ -96,15 +96,16 @@ body {
    opacity: 0.7;
 }
 
-/* for section one */
+/* for section */
+
 .section-body {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  text-align: center;
-  height: 400;
-  background:#FFF1D5;
+   width: 100%;
+   min-height: 300px;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   text-align: center;
+   background:#FFF1D5;
 }
 
 .section-body h3 {
@@ -115,7 +116,7 @@ body {
 
 .section-box {
    display: grid;
-   grid-template-columns: repeat(2, 135px);
+   grid-template-columns: 150px 150px;
    padding-bottom: 30px;
 }
 
@@ -146,24 +147,14 @@ body {
 
 /* for certificate segment */
 
-/*.certificate {
-   width: 100%;
-   background: white;
-   height: 1400px;
-   text-align: center;
-   margin-bottom: 50px;
-}*/
-
 .certificate {
    width: 100%;
    background: white;
+   min-height: 1600px;
    text-align: center;
-   overflow: hidden; /* optional */
-   padding-bottom: 40px; /* ✅ adds spacing below */
 }
 
 .certificate-image {
-   display: block;
    width: 100%;
 }
 
@@ -172,89 +163,273 @@ body {
 }
 
 .certificate p {
-   padding: 8px;
+   padding: 10px;
    text-align: center;
    font-size: 10px;
    color: black;
    font-weight: bold;
 }
 
-/* for details */
-
-.curriculum {
-   width: 250px;
-   height: 200px;
-   margin: 0 auto;
-}
-
-.curriculum h4 {
+.certificate h4 {
    text-align: left;
    padding: 15px 0;
    font-size: 15px;
    font-weight: bold;
+   margin-left: 50px;
 }
 
-.curriculum details {
+.certificate details {
    text-align: left;
+   margin-left: 50px;
 }
 
-.curriculum summary {
+.certificate summary {
    text-align: left;
    text-decoration: underline;
    line-height: 30px;
 }
 
-.curriculum details p {
+.certificate details p {
    text-align: left;
    text-decoration: underline;
 }
 
 /* for about */
 
-/*.about-container {
-   width: 100%;
-   background: white;
-   height: 240px;
-}*/
-
 .about-container {
-   width: 100%;
-   background: white;
-   height: 240px;
-   margin-top: 30px; /* ✅ space between sections */
-}
-
-.about-container-box {
    width: 50%;
-   height: 210px;
    background: white;
-   border-radius: 2px;
-   box-shadow:  0 4px 5px rgb(92, 92, 92, 0.4);
-   margin: 0 auto;
+   height: 200px;
+   margin-left: 50px;
+   box-shadow: 0 4px 10px rgba(92, 92,92, 0.5);
+   margin-top: 30px;
 }
 
 .about-container img {
    width: 100%;
-   height: 100px;
+   height: 90px;
    border-top-right-radius: 2px;
    border-top-left-radius: 2px;
 }
 
-.about-container-box hr {
-   width: 15%;
-   margin-left: 20px;
-   margin-top: -5px;
-   margin-bottom: 10px;
+.about-container h5 {
+   font-size: 10px;
+   text-align: left;
+   padding-left: 20px;
 }
 
-.about-container h5 {
-   font-size: 14px;
-   padding: 10px 20px;
-   
+.about-container hr {
+   width: 15%;
+   margin-left: 20px;
+   margin-top: 5px;
 }
 
 .about-container p {
-   font-size: 12px;
+   text-align: left;
    padding-left: 20px;
-   line-height: 15px;
+   line-height: 0;
+   font-size: 4px;
+}
+
+.about-container:nth-child(4) {
+   text-decoration: line-through;
+}
+   
+
+/* média query */
+
+@media(min-width: 970px) and (max-width: 2000px) {
+
+   .main-header {
+      height: 70px;
+  }
+   
+   .main-header img {
+      width: 200px;
+      height: 40px;
+   }
+
+   .sign-in button {
+      background: transparent;
+      border: none;
+      color: black;
+      font-size: 25px;
+      cursor: pointer;
+   } 
+ /* header end */
+   
+   .main-main {
+      width: 100%;
+      height: 800px;
+      background: white;
+      text-align: center;
+   }
+
+   .main-body {
+      display: block;
+      padding-top: 100px;
+   }
+
+   .main-body img {
+      width: 80%;
+      height: 400px;
+      margin-top: 60px;
+      margin: 0 auto;
+   }
+
+   .main-content {
+      line-height: 40px; 
+      margin-top: 40px;   
+   }
+   
+   .main-content h3 {
+      font-size: 40px;
+   }
+
+   .main-content p {
+      font-size: 20px;
+      padding: 20px 0;
+   }
+
+   .main-button {
+      column-gap: 15px;
+   }
+
+   .main-button button {
+      width: 170px;
+      font-size: 18px;
+      padding: 15px 10px;
+   }
+/* main end */
+         
+   .section-body {
+      width: 100%;
+      min-height: 800px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      text-align: center;
+      background:#FFF1D5;
+   }
+
+   .section-body h3 {
+      flex-basis: 100%;
+      margin: 20px 0 1px;
+      font-size: 30px;
+   }
+
+   .section-box {
+      display: grid;
+      grid-template-columns: 350px 350px;
+      padding-bottom: 30px;
+      height: 600px;
+   }
+
+   .section-box-contents {
+      background: white;
+      border: 1px solid lightgrey;
+      margin-left: -1px;
+      margin-bottom: -1px;
+   }
+
+   .section-box-contents h4 {
+      font-size: 23px;   
+      padding: 1px 3px;
+   }
+
+   .section-box-contents p {
+      font-size: 25px;
+      line-height: 25px;
+      padding: 10px;
+   }
+   
+   .fa-solid {
+      color: green;
+      font-size: 40px;
+      padding: 23px 9px;
+   } 
+   
+   /* for certificate */
+   
+   
+   .certificate {
+      min-height: 3800px;
+   }
+
+   .certificate-image {
+      width: 100%;
+   }
+
+   .certificate-image img {
+      width: 80%;
+   }
+
+   .certificate p {
+      padding: 10px;
+      text-align: center;
+      font-size: 10px;
+      color: black;
+      font-weight: bold;
+   }
+
+   .certificate h4 {
+      text-align: left;
+      padding: 15px 0;
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 100px;
+   }
+
+   .certificate details {
+      text-align: left;
+      margin-left: 100px;
+   }
+
+   .certificate summary {
+      text-align: left;
+      text-decoration: underline;
+      line-height: 30px;
+   }
+
+   .certificate details p {
+      text-align: left;
+      text-decoration: underline;
+   }
+
+   /* for about container */
+   
+   .about-container {
+      width: 50%;
+      background: white;
+      height: 500px;
+      margin-left: 100px;
+      margin-top: 100px;
+   }
+   
+   .about-container img {
+      height: 100%;
+      height: 250px;
+      border-top-right-radius: 2px;
+      border-top-left-radius: 2px;
+   }
+
+   .about-container h5 {
+      font-size: 30px;
+      text-align: left;
+      padding-left: 40px;
+   }
+
+   .about-container hr {
+      width: 15%;
+      margin-left: 40px;
+      margin-top: 5px;
+   }
+
+   .about-container p {
+      text-align: left;
+      padding-left: 40px;
+      font-size: 25px;
+      line-height: 20px;
+   }
+ 
 }
