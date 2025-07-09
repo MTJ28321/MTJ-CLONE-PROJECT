@@ -4,553 +4,238 @@
    box-sizing: border-box;
 }
 
-body {
-   background: lightgrey;
-   font-family: "Roboto", sans-serif;
-}
-
 .main-header {
    position: fixed;
-   width: 100%;
-   background: white;
    display: flex;
-   justify-content: space-around;
+   justify-content: space-between;
    align-items: center;
-   height: 30px;
+   width: 100%;
+   height: 60px;
+   background: white;
    z-index: 100;
 }
 
-.main-header img {
-   width: 100px;
-   height: 15px;
+.web-logo {
+   width: 200px;
 }
 
-.sign-in button {
+.web-logo img {
+   width: 300px;
+   height: 40px;
+   margin-left: 80px;
+}
+
+.sign-in-button {
+   width: 200px;
+   margin-right: 55px;
+}
+
+.sign-in-button button {
+   width: 200px;
+   height: 40px;
+   font-size: 35px;
+   text-align: center;
    background: transparent;
    border: none;
-   color: black;
    cursor: pointer;
 }
 
-/* for main */
+/* for maim page */
 
-.main-main {
+.main-page {
+   width: 100%;
+   height: 800px;
    background: white;
    text-align: center;
 }
 
-.main-body {
-   height:300px;
-   display: block;
+.main-bg {
+   width: 100%;
+   text-align: center;
+}
+
+.main-bg img {
+   width: 750px;
+   height: 380px;
+   margin-top: 120px;
+}
+
+.main-bg h4 {
+   font-size: 45px;
+   color: black;
    padding-top: 40px;
 }
 
+.main-bg p {
+   font-size: 25px;
+   padding-top: 30px;
+}
 
-.main-body img {
-   width: 260px;
-   height: 140px;
-   margin-top: 60px;
+.main-bg button {
+   width: 150px;
+   font-size: 18px;
+   padding: 15px;
+   margin-right: 10px;
+   margin-top: 20px;
+   font-weight: bold;
+   border-radius: 60px;
+   border: 1px solid black;
+   cursor: pointer;
+}
+
+.main-bg button:nth-child(4) {
+   background: green;
+   color: white;
+}
+
+
+/* for section 1 */
+
+.section-1 {
+   width: 100%;
+   height: 900px;
+   padding: 60px;
+   text-align: center;
+   background: #FBF5DE;
+}
+
+.section-1 h4 {
+   font-size: 28px;
+   margin-bottom: 40px;
+   font-weight: bold;
+}
+
+.section-1-container {
+   width: 90%;
+   height: 650px;
+   display: grid;
+   grid-template-columns: repeat(2, 50%);
    margin: 0 auto;
 }
 
-.main-content {
-   line-height: 25px; 
-   margin-top: 20px;   
-}
-.main-content h3 {
-   font-size: 15px;
-}
-
-.main-content p {
-   font-size: 8px;
-}
-
-.main-button {
-   margin-top: 10px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   column-gap: 8px;
-}
-
-.main-button button {
-   width: 70px;
-   font-size: 8px;
-   padding: 6px 5px;
-   border-radius: 50px;
-   border: 1px solid gray;
+.section-1-content {
    background: white;
-   font-weight: bold;
-   cursor: pointer;
-   transition: 0.15s;
-}
-
-.main-button button:nth-child(1) {
-   background: green;
-   color: white;
-}
-
-.main-button button:nth-child(1):hover {
-   background: green;
-   color: white;
-   opacity: 0.7;
-}
-
-/* for section */
-
-.section-body {
-   width: 100%;
-   min-height: 300px;
-   display: flex;
-   justify-content: center;
-   flex-wrap: wrap;
+   padding: 30px 20px;
+   border: 1px solid #ccc;
    text-align: center;
-   background:#FFF1D5;
+   padding: 30px;
+   border: 1px solid grey;
 }
 
-.section-body h3 {
-   flex-basis: 100%;
-   padding: 20px;
-   font-size: 14px;
+.section-1-content i {
+   font-size: 32px;
+   color: #2e7d32;
+   /* green icon color */
+   margin-bottom: 15px;
+   display: block;
 }
 
-.section-box {
-   display: grid;
-   grid-template-columns: 150px 150px;
-   padding-bottom: 30px;
+.section-1-content h5 {
+   font-size: 30px;
+   font-weight: bold;
+   margin: 20px;
 }
 
-.section-box-contents {
-   background: white;
-   border: 1px solid lightgrey;
-   margin-left: -1px;
-   margin-bottom: -1px;
+.section-1-content p {
+   font-size: 20px;
+   color: #444;
+   line-height: 1.5;
 }
 
-.section-box-contents h4 {
-   font-size: 10px;   
-   padding: 1px 3px;
+/* for section 2 */
+
+.section-2 {
+   width: 100%;
+   min-height: 1000px;
 }
 
-.section-box-contents p {
-   font-size: 10px;
-   line-height: 11px;
-   padding: 5px; 
+.section-2 h4 {
+   text-align: center;
+   font-size: 50px;
+   font-weight: 400;
+   color: white;
+   text-transform: capitalize;
+   padding: 30px;
 }
 
-.fa-solid {
-   color: green;
-   font-size: 15px;
-   padding: 13px 9px;
-}
-
-
-/* for certificate segment */
+/* for certificate */
 
 .certificate {
+   width: 750px;
+   margin: 0 auto;
+}
+
+
+.certificate img {
    width: 100%;
+}
+
+/* for CURRICULUM */
+
+.curriculum {
+   width: 750px;
+   margin: 0 auto;
+}
+
+.curriculum h5 {
+   text-align: left;
+   font-size: 40px;
+   padding: 30px 0 30px;
+}
+
+.curriculum details {
+   font-size: 30px;
+   padding: 30px;
+}
+
+.curriculum details summary {
+   font-size: 35px;
+}
+
+.curriculum details p {
+   font-size: 40px;
+   padding-top: 30px;
+}
+
+/* aside */
+
+.aside-in-section {
+   width: 100%;
+}
+
+.aside-content {
+   width: 400px;
+   height: 480px;
+   margin-top: 50px;
+   margin-left: 105px;
+   box-shadow: 0 4px 20px rgb(92, 92, 92, 0.8);
    background: white;
-   min-height: 1600px;
-   text-align: center;
 }
 
-.certificate-image {
+.aside-content img {
    width: 100%;
 }
 
-.certificate-image img {
-   width: 270px;
+.aside-content h2 {
+   padding: 20px;
+   font-size: 18px;
 }
 
-.certificate p {
-   padding: 10px;
-   text-align: center;
-   font-size: 10px;
-   color: black;
-   font-weight: bold;
+.aside-content hr {
+   width: 100px;
+   margin-left: 20px;
+   border: 2px solid grey;
+   margin-bottom: 10px;
 }
 
-.certificate h4 {
-   text-align: left;
-   padding: 15px 0;
-   font-size: 15px;
-   font-weight: bold;
-   margin-left: 50px;
-}
 
-.certificate details {
-   text-align: left;
-   margin-left: 50px;
-}
-
-.certificate summary {
-   text-align: left;
-   text-decoration: underline;
+.aside-content p {
+   font-size: 20px;
    line-height: 30px;
 }
 
-.certificate details p {
-   text-align: left;
-   text-decoration: underline;
-}
-
-/* for about */
-
-.about-container {
-   width: 50%;
-   background: white;
-   height: 200px;
-   margin-left: 50px;
-   box-shadow: 0 4px 10px rgba(92, 92,92, 0.5);
-   margin-top: 30px;
-}
-
-.about-container img {
-   width: 100%;
-   height: 90px;
-   border-top-right-radius: 2px;
-   border-top-left-radius: 2px;
-}
-
-.about-container h5 {
-   font-size: 10px;
-   text-align: left;
+.aside-content .fa-solid {
+   font-size: 20px;
+   color: green;
    padding-left: 20px;
-}
-
-.about-container hr {
-   width: 15%;
-   margin-left: 20px;
-   margin-top: 5px;
-}
-
-.about-container p {
-   text-align: left;
-   padding-left: 20px;
-   line-height: 0;
-   font-size: 4px;
-}
-
-.about-container:nth-child(4) {
-   text-decoration: line-through;
-}
-
-
-/* for unlock */
-
-.unlock {
-   width: 100%;
-   min-height: 300px;
-   background: white;
-   margin-top: -1;
-}
-
-.unlock-section {
-   width: 100%;
-   background:#FFF1D5;
-   margin: 0 auto;
-}
-
-.unlock-section h4 {
-   padding-left: 90px;
-   font-size: 30px;
-   padding-top: 70px;
-}
-
-.unlock-section h5 {
-   padding-left: 90px;
-   font-size: 30px;
-}
-
-.unlock-section p {
-   padding-left: 90px;
-   padding-top: 50px;
-   font-size: 20px;
-}
-
-.unlock-section button {
-   display: block;
-   width: 250px;
-   background: green;
-   margin-left: 90px;
-   text-align: center;
-   margin: auto;
-   margin-top: 50px;
-   padding: 20px;
-   color: white;
-   font-size: 20px;
-   border-radius: 150px;
-   border: none;
-   line-height: 25px;
-   cursor: pointer;
-}
-
-.unlock-section-part {
-   position: relative;
-   width: 80%;
-   margin: 0 auto;
-   border-bottom: 1px solid lightgrey;
-}
-
-.unlock-section-part .fa-solid {
-   position: absolute;
-   display: inline-block;
-   width: 50px;
-   height: 50px;
-   left: 0;
-   bottom: 30px;
-   margin-left: 20px;
-   background: green;
-   color: white;
-   border-radius: 0px;
-   font-size: 30px;
-   border-radius: 200px;
-   padding: 8px;
-}
-
-.unlock-section-part p {
-   font-size: 20px;
-   line-height: 100px;
-   font-weight: bold;
-}
-
-.footer {
-   position: relative;
-   width: 100%;
-   background: white;
-   min-height: 200px;
-}
-
-.footer .fa-brands {
-   position: absolute;
-   top: 20px;
-   left: 500px;
-   font-size: 40px;
-   margin:  auto;
-   cursor: pointer;
-}
-
-.footer-content {
-   display: flex;
-   justify-content: space-around;
-   border-top: 1px solid green;
-}
-
-.footer-content .content p{
-   padding-top: 130px;
-   
-}
-
-
-
-
-
-
-
-
-   
-
-/* média query */
-
-@media(min-width: 970px) and (max-width: 2000px) {
-
-   .main-header {
-      height: 70px;
-  }
-   
-   .main-header img {
-      width: 200px;
-      height: 40px;
-   }
-
-   .sign-in button {
-      background: transparent;
-      border: none;
-      color: black;
-      font-size: 25px;
-      cursor: pointer;
-   } 
- /* header end */
-   
-   .main-main {
-      width: 100%;
-      height: 800px;
-      background: white;
-      text-align: center;
-   }
-
-   .main-body {
-      display: block;
-      padding-top: 100px;
-   }
-
-   .main-body img {
-      width: 80%;
-      height: 400px;
-      margin-top: 60px;
-      margin: 0 auto;
-   }
-
-   .main-content {
-      line-height: 40px; 
-      margin-top: 40px;   
-   }
-   
-   .main-content h3 {
-      font-size: 40px;
-   }
-
-   .main-content p {
-      font-size: 20px;
-      padding: 20px 0;
-   }
-
-   .main-button {
-      column-gap: 15px;
-   }
-
-   .main-button button {
-      width: 170px;
-      font-size: 18px;
-      padding: 15px 10px;
-   }
-/* main end */
-         
-   .section-body {
-      width: 100%;
-      min-height: 800px;
-      display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
-      text-align: center;
-      background:#FFF1D5;
-   }
-
-   .section-body h3 {
-      flex-basis: 100%;
-      margin: 20px 0 1px;
-      font-size: 30px;
-   }
-
-   .section-box {
-      display: grid;
-      grid-template-columns: 350px 350px;
-      padding-bottom: 30px;
-      height: 600px;
-   }
-
-   .section-box-contents {
-      background: white;
-      border: 1px solid lightgrey;
-      margin-left: -1px;
-      margin-bottom: -1px;
-   }
-
-   .section-box-contents h4 {
-      font-size: 23px;   
-      padding: 1px 3px;
-   }
-
-   .section-box-contents p {
-      font-size: 25px;
-      line-height: 25px;
-      padding: 10px;
-   }
-   
-   .fa-solid {
-      color: green;
-      font-size: 40px;
-      padding: 23px 9px;
-   } 
-   
-   /* for certificate */
-   
-   
-   .certificate {
-      min-height: 3750px;
-   }
-
-   .certificate-image {
-      width: 100%;
-   }
-
-   .certificate-image img {
-      width: 80%;
-   }
-
-   .certificate p {
-      padding: 10px;
-      text-align: center;
-      font-size: 10px;
-      color: black;
-      font-weight: bold;
-   }
-
-   .certificate h4 {
-      text-align: left;
-      padding: 15px 0;
-      font-size: 15px;
-      font-weight: bold;
-      margin-left: 100px;
-   }
-
-   .certificate details {
-      text-align: left;
-      margin-left: 100px;
-   }
-
-   .certificate summary {
-      text-align: left;
-      text-decoration: underline;
-      line-height: 30px;
-   }
-
-   .certificate details p {
-      text-align: left;
-      text-decoration: underline;
-   }
-
-   /* for about container */
-   
-   .about-container {
-      width: 50%;
-      background: white;
-      height: 500px;
-      margin-left: 100px;
-      margin-top: 100px;
-   }
-   
-   .about-container img {
-      height: 100%;
-      height: 250px;
-      border-top-right-radius: 2px;
-      border-top-left-radius: 2px;
-   }
-
-   .about-container h5 {
-      font-size: 30px;
-      text-align: left;
-      padding-left: 40px;
-   }
-
-   .about-container hr {
-      width: 15%;
-      margin-left: 40px;
-      margin-top: 5px;
-   }
-
-   .about-container p {
-      text-align: left;
-      padding-left: 40px;
-      font-size: 25px;
-      line-height: 20px;
-   }
-   
-   /* for unlock */
-   
-   .unlock {
-      margin-top: -1px;
-   }
-
- 
 }
