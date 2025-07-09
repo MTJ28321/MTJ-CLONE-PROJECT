@@ -17,6 +17,7 @@
 
 .web-logo {
    width: 200px;
+   cursor: pointer;
 }
 
 .web-logo img {
