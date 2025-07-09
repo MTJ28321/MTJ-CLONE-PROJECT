@@ -1,98 +1,94 @@
 <!DOCTYPE html>
 <html lang="">
    <head>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>mtj clone</title>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
+      <title>mtj clone website</title>
+      <meta name="viewport" contaent="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/all.min.css">
       <link rel="stylesheet" href="css/header.css">
    </head>
    <body>
+      <header class="main-header">
+         <div class="web-logo">
+            <img src="logo/logo.png">
+         </div>
+         
+         <div class="sign-in-button">
+            <button>Sign In</button>
+         </div>
+      </header>
+      <!-- end of header-->
       
-      <!------------ for main headrest --------->
-    <header class="main-header">
-       <div class="website-logo">
-          <img src="logo/logo.png">
-       </div>
-       <div class="sign-in">
-          <button>Sign In</button>
-       </div>
-    </header>
+      <main class="main-page">
+         <div class="main-bg">
+            <img src="images/bg.png">
+            <h4>HTML & CSS Full Course </h4>
+            <p>(Premium Version with Certificate)</p>
+            <button>
+               Enroll 	<strike>&#36;99</strike> $33
+            </button>
+            <button>Free Preview</button>
+         </div>
+      </main>
+      
+      <!-- end of main -->
+      
+      <section class="section-1">
+         <h4>Premium Highlights</h4>
+         <div class="section-1-container">
+            <div class="section-1-content">
+               <i class="fas fa-laptop"></i>
+               <h5>Enhanced Learning Experience</h5>
+               <p>An ad-free learning experience with 
+                  progress tracking, easy-to-navigate 
+                  content.
+               </p>
+            </div>
+            <div class="section-1-content">
+               <i class="fas fa-graduation-cap"></i>
+               <h5>Certificate of Completion</h5>
+               <p>Earn a Certificate of Completion from a 
+                  course with 9.8 million+ views. Add a 
+                  competitive edge to your resume.</p>
+             </div>
     
-    <!--------- for the main body ----------->
-    <main class="main-main">
-       <div class="main-body">
-          <img src="images/bg.png">
-          <div class="main-content">
-             <h3>HTML & CSS Full Course</h3>
-             <p>(Premium Version with Certificate)</p>
-          </div>
-          <div class="main-button">
-             <button>Enroll <strike>$99</strike> $33</button>
-             <button>Free Preview</button>
-          </div>
-       </div>
-    </main> <!--------- for the main body end ----------->
-   
-   <!---------- section body --------->
-   <section class="section-body">
-      <h3>Premium Highlights</h3>      
-      <div class="section-box">      
-         <div class="section-box-contents">                  
-            <i class="fa-solid fa-laptop"></i>
-            <h4>Enhanced Learning Experience</h4>
-            <p>An ad-free learning experience with progress    
-               tracking, easy-to-navigate content.</p>
+             <div class="section-1-content">
+               <i class="fas fa-list-alt"></i>
+               <h5>Detailed Course Breakdown</h5>
+               <p>Easily find and revisit specific skills 
+                  with our detailed course breakdown and 
+                  search 
+                  feature.
+                </p>
+              </div>
+    
+              <div class="section-1-content">
+               <i class="fas fa-heart"></i>
+               <h5>Support SuperSimpleDev</h5>
+               <p>Your purchase supports SuperSimpleDev, 
+                  helping us to continue producing 
+                  high-quality    
+                  educational videos
+                </p>
+               </div> 
+      </section>
+      <!-- end of section 1-->
+      
+      <section class="section-2">
+         <h4>certificate</h4>
+         <div class="certificate">
+            <img src="images/certificate-html-css.jpg">
+            <img src="images/html-css-certificate-description.png" alt="">
          </div>
          
-         <div class="section-box-contents">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <h4>Certificate of Completion</h4>
-            <p>Earn a Certificate of Completion from a 
-               course with 9.8 million+ views. Add a 
-               competitive edge to your resume.</p>
-         </div>
-         
-         <div class="section-box-contents">
-            <i class="fa-solid fa-bars"></i>
-            <h4>Details Course Breakdown </h4>
-            <p>Easily find and revisit specific skills with 
-               our detailed course breakdown and search 
-               feature.</p>
-         </div>
-         
-         <div class="section-box-contents">
-            <i class="fa-solid fa-heart"></i>
-            <h4>Support mtjclone</h4>
-            <p>Your purchase supports SuperSimpleDev, 
-            helping us to continue producing high-quality 
-            educational videos and content.</p>
-         </div>
-      </div>         
-   </section><!-- end -->
-   
-   
-   <!-- second section segment-->
-   <section class="certificate">
-      <p>Certificate</p>
-      <div class="certificate-image">
-         <img src="images/certificate-html-css.jpg" alt="">
-      </div>
-      <div class="certificate-image">
-         <img src="
-            images/html-css-certificate-description.png">
-      </div>
-      
-      
-         <h4>Course Curriculum </h4>
-      <details>
-         <summary>Introduction</summary>
-         <p>introduction</p>
-      </details>
-      
-      <details>
+         <!-- FOR CURRICULUM -->
+         <div class="curriculum">
+            <h5>Course Curriculum</h5>
+            <details>
+               <summary>Introduction</summary>
+               <p>introduction</p>
+            </details>
+            
+            <details>
          <summary>1 &#46; HTML Basics</summary>
          <p>1 &#46; 1 What is HTML?</p>     
          <p>1 &#46; 2 First HTML code</p>         
@@ -361,60 +357,27 @@
          <p>Double check your completion & name before 
             receiving your certificate! </p>         
       </details> 
-     </div>
-     
-      <!--------- for about this course -------->
-      <div class="about-container">
-           <img src="images/bg.png" alt="">
-           <h5>About this course</h5><hr>
-           <p>155 lessons</p>
-           <p>6&#46;5 hours of video content</p>
-           <p>Certificate of Completion</p>
-           <p><del>99</del> $33</p>
-      </div>
-   </section>
-   
-   <section class="unlock">
-      <div class="unlock-section">
-         <h4>
-         Unlock your superior learning experience
-      </h4>
-      <h5>NOW</h5>
-      <p>Elevate your learning and support quality education today.
-      </p>
-      <button>Enroll Now <br><del>$99</del> $33</button>
-      
-      <div class="unlock-section-part">
-         <i class="fa-solid fa-graduation-cap"></i>
-         <p>Certificate of Completion</p
-      </div>
-      
-      <div class="unlock-section-part">
-         <i class="fa-solid fa-heart"></i>
-         <p>Detailed course breakdown</p>
-      </div>
-      
-      <div class="unlock-section-part">
-         <i class="fa-solid fa-laptop"></i>
-         <p>Ad-free, easy-to-navigate content</p>
-      </div>
-   </section>
-      </div>
-      
-      
-      <footer class="footer">
-         <div class="icon">
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
          </div>
-         <div class="footer-content">
-            <div class="content">
-               <p>&copy; Copyright SuperSimpleDev Courses 2025
+         
+         <aside class="aside-in-section">
+            <div class="aside-content">
+               <img src="images/bg.png">
+               <h2>About this course</h2><hr>
+               <p><i class="fa-solid fa-file-lines"></i>
+               155 lessons
+               </p>
+               <p><i class="fa-solid fa-circle-play"></i>
+                  6.5 hours of video content
+               </p>
+               <p><i class="fa-solid fa-graduation-cap">
+                  </i>
+               Certificate of Completion
+               </p>
+               <p><i class="fa-solid fa-pen"></i>
+                  $99 $33
                </p>
             </div>
-            <div class="content">
-               <p>Open in a new window</p>
-            </div>
-         </div>
-      </footer>
- </body>
+         </aside>>
+      </section>
+   </body>
 </html>
