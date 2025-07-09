@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  min-height: 200px;
+  background: white;
+  margin-top: 90px;
+}
+
+.footer i {
+  font-size: 50px;
+  color: black;
+  padding: 50px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+}
