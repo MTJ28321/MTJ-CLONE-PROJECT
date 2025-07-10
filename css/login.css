@@ -1,0 +1,131 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  width: 100%;
+  min-height: 500px;
+  background: white;
+  padding-top: 60px;
+}
+
+.container h3 {
+  padding: 50px 0 10px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.container form {
+  width: 620px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container form label {
+  display: flex;
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.container form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border: 2px solid gray;
+  padding-left: 20px;
+  font-size: 20px;
+  border: none;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  outline: none;
+}
+
+.login ::placeholder {
+  font-size: 20px;
+}
+
+.remember {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.remember input[type="checkbox"] {
+  width: 30px;
+}
+
+.remember p {
+  font-size: 20px;
+  margin-top: 15px;
+  padding-left: 10px;
+}
+
+.remember a {
+  font-size: 20px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  color: grey;
+}
+
+.button {
+  display: block;
+  width: 150px;
+  padding: 15px;
+  font-size: 30px;
+  margin: 0;
+  margin-top: 40px;
+  border-radius: 50px;
+  border: none;
+  background: green;
+  cursor: pointer;
+  color: white;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 40px 0;
+}
+
+.divider span {
+  padding: 0 10px;
+  font-size: 30px;
+  color: #555;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #ccc;
+}
+
+.social-media i {
+  background: white;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-radius: 100px;
+  padding: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.create {
+  margin-top: 50px;
+}
+
+.create a {
+  font-size: 15px;
+  color: grey;
+}
