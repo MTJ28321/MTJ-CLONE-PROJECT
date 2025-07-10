@@ -19,6 +19,11 @@
   text-align: center;
 }
 
+.container p {
+  font-size: 15px;
+  text-align: center;
+}
+
 .container form {
   width: 620px;
   text-align: center;
@@ -51,6 +56,62 @@
 .login ::placeholder {
   font-size: 20px;
 }
+
+/* for forget html*/
+
+.container-forget {
+  display: block;
+  width: 100%;
+  width: 100%;
+  min-height: 500px;
+  background: white;
+  padding-top: 60px;
+}
+
+.container-forget form {
+  width: 620px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-forget form label {
+  display: flex;
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-top: 30px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+.container-forget h3 {
+  padding-top: 50px;
+  font-size: 40px;
+  text-align: left;
+  padding-left: 180px;
+}
+
+.container-forget p {
+  font-size: 19px;
+  text-align: center;
+  padding: 20px 0;
+  margin-left: -1px;
+}
+
+.container-forget form input {
+  width: 100%;
+  height: 50px;
+  border: none;
+  border: 2px solid gray;
+  padding-left: 20px;
+  font-size: 20px;
+  border: none;
+  border: 2px solid lightgrey;
+  border-radius: 5px;
+  outline: none;
+}
+
+/* end */
 
 .remember {
   display: flex;
