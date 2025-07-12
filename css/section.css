@@ -61,7 +61,7 @@
    text-align: center;
    font-size: 50px;
    font-weight: 400;
-   color: white;
+   color: black;
    text-transform: capitalize;
    padding: 30px;
 }
@@ -113,7 +113,7 @@
 
 .aside-content {
    width: 400px;
-   height: 480px;
+   height: 550px;
    margin-top: 50px;
    margin-left: 105px;
    box-shadow: 0 4px 20px rgb(92, 92, 92, 0.8);
@@ -125,7 +125,7 @@
 }
 
 .aside-content h2 {
-   padding: 20px;
+   padding: 10px;
    font-size: 18px;
 }
 
@@ -156,6 +156,7 @@
    height: 810px;
    background: #FCECDD;
    text-align: center;
+   margin-top: 100px;
 }
 
 .section-3-content {

@@ -1,6 +1,6 @@
 .footer {
   width: 100%;
-  min-height: 200px;
+  min-height: 250px;
   background: white;
   margin-top: 90px;
 }
@@ -11,8 +11,14 @@
   margin-top: 50px;
 }
 
+hr {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
 .footer i {
-  font-size: 20px;
+  font-size: 30px;
   color: black;
 }
 
@@ -20,5 +26,5 @@
   display: flex;
   justify-content: space-around;
   font-size: 20px;
-  margin-top: 80px;
+  margin-top: 60px;
 }
