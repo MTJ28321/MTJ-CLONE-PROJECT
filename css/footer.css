@@ -5,14 +5,20 @@
   margin-top: 90px;
 }
 
+.contact-email {
+  display: inline-block;
+  padding: 5px;
+  margin-top: 50px;
+}
+
 .footer i {
-  font-size: 50px;
+  font-size: 20px;
   color: black;
-  padding: 50px;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-around;
   font-size: 20px;
+  margin-top: 80px;
 }
