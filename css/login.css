@@ -9,7 +9,7 @@
   width: 100%;
   width: 100%;
   min-height: 500px;
-  background: white;
+  background: ;
   padding-top: 60px;
 }
 
@@ -186,7 +186,9 @@
   margin-top: 50px;
 }
 
-.create a {
-  font-size: 15px;
-  color: grey;
+/* for sign up */
+
+.sign {
+  display: flex;
+  gap: 20px;
 }
