@@ -97,12 +97,18 @@
 }
 
 .curriculum details summary {
-   font-size: 35px;
+   font-size: 38px;
 }
 
 .curriculum details p {
-   font-size: 40px;
+   display: block;
+   font-size: 30px;
    padding-top: 30px;
+   cursor: pointer;
+}
+
+.curriculum details i {
+   margin-right: 25px;
 }
 
 /* aside */
