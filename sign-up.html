@@ -24,59 +24,72 @@
       
       <div class="container">
          <h3>Create a new account</h3> 
-         <form action="#" method="post">
+         <form id="form-validation" action="#" method="post">
             <div class="sign">
                <div class="login">
+                  <p id="first-name-p"></p>
                   <label>First name</label>
-                  <input type="text" placeholder="First name">
+                  <input id="FirstName" type="text" placeholder="First name">
                </div>
             
                <div class="login">
-                  <label>First name</label>
-                  <input type="text" placeholder="First name">
+                  <p id="second-name-p"></p>
+                  <label>Second name</label>
+                  <input id="SecondName" type="text" placeholder="First name">
                </div>
             </div>
             
             
-         <div class="login">
-            <label>emaail</label>
-            <input type="email" placeholder="email">
-         </div>
-         
-         <div class="login">
-            <label>password</label>
-            <input type="password" placeholder="password">
-         </div>
-         
-         <button class="button" type="submit">
-            sign in
-         </button>
-
-         <!-- for sócio login-->
-         <div class="divider">
-            <span>Or sign in with</span>
-         </div>
-         
-         <div class="social-media">
-            <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in">
-            </i>
-            </a>
+            <div class="login">
+               <p id="gmail-p"></p>
+               <label>email</label>
+               <input id="gmail" type="email" placeholder="Email">
+            </div>
             
-            <a href="https://facebook.com">
-            <i class="fa-brands fa-facebook-f"></i>
-            </a>
+            <div class="login">
+               <p id="password-p"></p>
+               <label>password</label>
+               <input id="password" type="password" placeholder="password">
+            </div>
             
-            <a href="https://gmail.com">
-            <i class="fa-solid fa-g"></i>
-            </a>
+            <div class="login">
+               <p id="c-password-p"></p>
+               <label>Confirm password</label>
+               <input id="cpassword" type="password" placeholder="Confirm password">
+            </div>
             
+            <p id="successful-p"></p>
+            <button id="successful" class="button" type="submit">
+               sign in
+            </button>
+   
+            <!-- for sócio login-->
+            <div class="divider">
+               <span>Or sign in with</span>
+            </div>
+            
+            <div class="social-media">
+               <a href="https://linkedin.com"><i class="fa-brands fa-linkedin-in">
+               </i>
+               </a>
+               
+               <a href="https://facebook.com">
+               <i class="fa-brands fa-facebook-f"></i>
+               </a>
+               
+               <a href="https://gmail.com">
+               <i class="fa-solid fa-g"></i>
+               </a>
+               
+            </div>
+                     
+            <div class="create">
+               <a href="login.html">
+                  Already have an account?
+               </a> 
+            </div>                           
+         </form>
          </div>
-                  
-         <div class="create">
-            <a href="login.html">
-               Already have an account?
-            </a> 
-         </div>                           
-      </form>
-      </div>
+      
+      <script src="validation.js"></script>
    </body>

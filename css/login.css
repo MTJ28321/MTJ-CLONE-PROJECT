@@ -7,7 +7,6 @@
 .container {
   display: block;
   width: 100%;
-  width: 100%;
   min-height: 500px;
   padding-top: 60px;
 }
@@ -50,6 +49,19 @@
   border: 2px solid lightgrey;
   border-radius: 5px;
   outline: none;
+}
+
+.login {
+  position: relative;
+}
+
+.login p {
+  position: absolute;
+  margin-top : 0;
+  font-size: 20px;
+  color: red;
+  padding-left: 50px;
+  margin: -5px;
 }
 
 .login ::placeholder {
