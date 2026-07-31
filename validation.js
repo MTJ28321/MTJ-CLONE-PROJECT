@@ -54,6 +54,11 @@ validation.addEventListener("submit", (e) => {
     return
   }
   
+  if(password.length >= 20 || cpassword.length >= 20){
+    cPasswordP.innerHTML = "password can not be greater than 20 characters";
+    return
+  }
+  
   if(cpassword  !== password ){
     cPasswordP.innerHTML = "passwords do not match";
     return;
